@@ -4,7 +4,7 @@ in order to run this cli version of the app on your linux based computer you nee
 you can also customize the bot to suit your needs
 
 # WHAT THE BOT CAN AUTOMATE
-1. Liking poeples posts
+1. Liking peoples posts
 2. Commenting peoples posts
 3. Unfollowing those people who are not following you back
 4. Following the followers of a certain person
