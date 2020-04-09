@@ -50,7 +50,7 @@ session.set_comments(["Nice!", "Sweet!", "Beautiful"])
 session.set_relationship_bounds(enabled=True, max_followers=8500)
 
 #This api is used to help your bot analyze the picture and it will avoid some pictures which you have described not to like you have to register with clarifai to get the api token key
-session.set_use_clarifai(enabled=True, api_key='074fa258d6374329ae68585f114424ff')
+session.set_use_clarifai(enabled=True, api_key='replace this with your clarifai token key')
 session.clarifai_check_img_for(['nsfw'])
 session.set_quota_supervisor(enabled=True, peak_comments_daily=240, peak_comments_hourly=21)
 
