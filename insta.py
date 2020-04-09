@@ -20,19 +20,19 @@ session.set_dont_like(["naked", "nsfw"])i
 session.set_do_follow(enabled=True, percentage=10, times=2)
 
 #this will follow each account from a list of instagram nicknames
-#follow_by_list(followlist=['name', 'name1'], times=1, sleep_delay=600, interact=False)
+follow_by_list(followlist=['name', 'name1'], times=1, sleep_delay=600, interact=False)
 
 #follow user based on hashtags (without liking the image)
-#session.follow_by_tags(['tag1', 'tag2'], amount=10)
+session.follow_by_tags(['tag1', 'tag2'], amount=10)
 
 #this will follow the poeple those liked photos of given list of users
-#session.follow_likers(['user1', 'user2'], photos_grab_amount = 1, follow_likers_per_photo, randomize=True, sleep_delay=600, interact=False
+session.follow_likers(['user1', 'user2'], photos_grab_amount = 1, follow_likers_per_photo, randomize=True, sleep_delay=600, interact=False
 
 #follow people those commented on photos of given list of users
-#session.follow_commenters(['user1', 'user2', 'user3'], amount=100, daysold=365, max_pic = 100, sleep_delay=600, interact=False)
+session.follow_commenters(['user1', 'user2', 'user3'], amount=100, daysold=365, max_pic = 100, sleep_delay=600, interact=False)
 
 #unfollow the users who do not follow you back
-#session.unfollow_users(amount=126, nonFollowers=True, style="RANDOM", unfollow_after=42*60*60, slee-_delay=655)
+session.unfollow_users(amount=126, nonFollowers=True, style="RANDOM", unfollow_after=42*60*60, slee-_delay=655)
 
 
 #This will be your custom comments whenever you like it will comment with what you have put below
@@ -40,11 +40,11 @@ session.set_do_comment(enabled=True, percentage=10)
 session.set_comments(["Nice!", "Sweet!", "Beautiful"])
 
 # comments fo specific media types (photo / video)
-#session.set_comments(['Nice shot!'], media='Photo')
-#session.set_commnets(['Great video'], media='Video')
+session.set_comments(['Nice shot!'], media='Photo')
+session.set_commnets(['Great video'], media='Video')
 
 # adding the username of the poster to the comment
-#session.set_comments(['Nice shot! @{}, media='Photo')
+session.set_comments(['Nice shot! @{}', media='Photo')
 
 #This will limit the interaction with people whow have alot of followers
 session.set_relationship_bounds(enabled=True, max_followers=8500)
