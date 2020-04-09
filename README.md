@@ -1,7 +1,7 @@
 # INSTGRAM BOT
 This bot is used to automate stuff on your instagram account and the web app version is under development
-in order to run this cli version of the app on your linux based computer you need to install **Python** **InstaPy**
-you can also customize the bot to suit your needs
+in order to run this cli version of the app on your linux based computer you need to install **Python** and **InstaPy**.
+You can also customize the bot to suit your needs.
 
 # WHAT THE BOT CAN AUTOMATE
 1. Liking peoples posts
